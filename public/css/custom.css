@@ -1,0 +1,29 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.homeimage{
+	background-image: url("/img/clock.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	height: 100%;
+}
+
+.homecontent{
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
+	color: #DDD;
+}
+
+.login-spacer {
+	margin-bottom:7px;
+}
+
+.login-error {
+	color: red;
+}
